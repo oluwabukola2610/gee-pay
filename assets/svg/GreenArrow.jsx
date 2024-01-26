@@ -1,0 +1,11 @@
+import React from 'react'
+
+const GreenArrow = () => {
+  return (
+<svg xmlns="http://www.w3.org/2000/svg" width="10" height="6" viewBox="0 0 10 6" fill="none">
+  <path d="M0.5 5.5L3.5 2.5L5.5 4.5L9.5 0.5" stroke="#34CAA5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M6 0.5H9.5V4" stroke="#34CAA5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>  )
+}
+
+export default GreenArrow
