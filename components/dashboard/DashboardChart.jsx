@@ -96,7 +96,7 @@ const DashboardChart = () => {
     },
   };
 
-  return <Column {...config} className="h-[350px] " />;
+  return <Column {...config} className="h-[350px] w-[600px] md:w-full" />;
 };
 
 export default DashboardChart;

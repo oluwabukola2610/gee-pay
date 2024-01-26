@@ -26,7 +26,9 @@ const Dashboard = () => {
               </select>
             </div>{" "}
           </div>
+          <div className="w-full overflow-x-auto overflow-hidden">
           <DashboardChart />
+          </div>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-[9px] h-full">
           <section className="px-3 py-4 h-fit w-full border border-gray-100 rounded-[14px] space-y-4 bg-white dark:bg-black/40 dark:border-gray-900">
