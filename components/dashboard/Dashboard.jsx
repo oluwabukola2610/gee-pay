@@ -110,7 +110,7 @@ const Dashboard = () => {
           </section>
         </div>
       </div>
-      <div className="grid md:grid-cols-[720px_1fr] grid-cols-1 gap-[30px] w-full h-fit p-3 mt-4">
+      <div className="grid lg:grid-cols-[720px_1fr] grid-cols-1 gap-[30px] w-full h-fit p-3 mt-4">
         <div className="relative overflow-x-auto  sm:rounded-lg w-full">
           <DashboardTable />
         </div>
